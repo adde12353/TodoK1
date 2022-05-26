@@ -24,7 +24,6 @@ export default {
                 details: this.details,
                 complete: false
             }
-            console.log(project)
             fetch("http://localhost:5006/", 
             {
                 method: 'POST',

@@ -29,7 +29,7 @@ export default {
   mounted(){
     fetch("http://localhost:5006/")
     .then((res) => { 
-    console.log(res)
+    
     return res.json()
     } 
       
